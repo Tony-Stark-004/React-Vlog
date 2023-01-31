@@ -1,0 +1,55 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)), url('../../../Assests/register.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.registerTitle {
+  font-size: 35px;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.registerForm>label {
+  margin: 10px 0;
+}
+
+.registerInput {
+  padding: 7px;
+  background-color: white;
+  border: none;
+}
+
+.registerButton {
+  margin-top: 20px;
+  border: none;
+  background-color: #e7e7e7;
+  color: black;
+  cursor: pointer;
+  border-radius: 7px;
+  padding: 3px;
+}
+
+.registerRegisterButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  border: none;
+  /* background-color: #830183; */
+  background-color:#9c0303;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 7px;
+
+}
